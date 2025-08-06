@@ -2132,7 +2132,7 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ee4bb;
+			border-color: #e2b109;
 		}
 
 	label {
