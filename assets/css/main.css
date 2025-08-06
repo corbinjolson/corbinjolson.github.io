@@ -196,6 +196,9 @@ input, select, textarea {
 	p {
 		margin: 0 0 2rem 0;
 	}
+	.mb-0 {
+		margin-bottom: 0px !important;
+	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -3351,6 +3354,14 @@ input, select, textarea {
 				#wrapper > section.intro > .content {
 					height: 100vh;
 					max-width: none;
+				}
+				#wrapper > section > .content h1,
+				#wrapper > section > .content h2,
+				#wrapper > section > .content h3,
+				#wrapper > section > .content h4,
+				#wrapper > section > .content h5,
+				#wrapper > section > .content h6 {
+					color: #000000;
 				}
 
 			#wrapper > section:last-of-type > header:before {
