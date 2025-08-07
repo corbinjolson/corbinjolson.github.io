@@ -2938,11 +2938,12 @@ input, select, textarea {
 
 			.gallery a img {
 				display: block;
-				height: 25vw;
-				min-height: 18rem;
+				height: 28vw;
+				min-height: 15rem;
 				object-fit: cover;
 				object-position: center;
 				width: 100%;
+				box-shadow: 0 0 30px rgba(0,0,0,0.3);
 			}
 
 			.gallery a.landscape {
@@ -2950,7 +2951,7 @@ input, select, textarea {
 			}
 
 				.gallery a.landscape img {
-					height: 30vw;
+					height: 19vw;
 				}
 
 			.gallery a.portrait img {
