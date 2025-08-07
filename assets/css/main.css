@@ -2943,7 +2943,7 @@ input, select, textarea {
 				object-fit: cover;
 				object-position: center;
 				width: 100%;
-				box-shadow: 0 0 30px rgba(0,0,0,0.3);
+				border: 1px solid #ddd;
 			}
 
 			.gallery a.landscape {
@@ -3089,11 +3089,11 @@ input, select, textarea {
 		@media screen and (max-width: 1152px) {
 
 			.gallery a img {
-				height: 20rem;
+				height: 25rem;
 			}
 
 			.gallery a.landscape img {
-				height: 25rem;
+				height: 18rem;
 			}
 
 			.gallery a.portrait img {
@@ -3780,6 +3780,9 @@ input, select, textarea {
 		@media screen and (min-width: 1152px) {
 			#wrapper section > header {
 				color: #fff;
+			}
+			.gallery a img {
+				box-shadow: 0 0 30px rgba(0,0,0,0.3);
 			}
 		}
 
