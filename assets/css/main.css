@@ -3537,6 +3537,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 1152px) {
 
+			h3 {
+				color: #000;
+			}
 			#wrapper {
 				padding: 0;
 			}
