@@ -3247,7 +3247,7 @@ input, select, textarea {
 				grid-area: header;
 				justify-self: end;
 				text-align: right;
-				color: #ffffff;
+				color: #000000;
 			}
 
 				#wrapper section > header h2 {
@@ -3773,6 +3773,11 @@ input, select, textarea {
 				padding: 0 1.5rem 1.5rem 1.5rem;
 			}
 
+		}
+		@media screen and (min-width: 1152px) {
+			#wrapper section > header {
+				color: #fff;
+			}
 		}
 
 	body.is-mobile #wrapper:before {
